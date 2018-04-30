@@ -31,6 +31,7 @@
 
  - docker container exec -it <YourName> bash
  - mongoimport --db albums --collection albums --file dumpjson.json --jsonArray
+ - mongoimport --db albums --collection artistes --file dump_artistes.json --jsonArray
  - mongo
  - use albums
  - db.albums.find()
